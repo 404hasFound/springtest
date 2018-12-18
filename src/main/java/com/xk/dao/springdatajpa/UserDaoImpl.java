@@ -3,7 +3,6 @@ package com.xk.dao.springdatajpa;
 import java.util.List;
 import java.util.Map;
 
-import javax.annotation.security.RolesAllowed;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 

@@ -165,48 +165,13 @@
             <artifactId>mybatis</artifactId>
             <version>3.4.1</version>
         </dependency>
-		 <dependency>
-			<groupId>com.oracle</groupId>
-			<artifactId>ojdbc6</artifactId>
-			<version>12.1.0.1.0</version>
-		</dependency>
+		
 
-		<dependency>
-			<groupId>net.sf</groupId>
-			<artifactId>acegi-security</artifactId>
-			<version>0.9.0</version>
-		</dependency>
+		
 		<dependency>
 			<groupId>oro</groupId>
 			<artifactId>oro</artifactId>
 			<version>2.0.8</version>
-		</dependency>
-		<dependency>
-			<groupId>com.wondersgroup.commons</groupId>
-			<artifactId>commons-auth</artifactId>
-			<version>1.1.17</version>
-			<exclusions>  
-       			 <exclusion>  
-		             <groupId>org.hibernate</groupId>  
-		            <artifactId>*</artifactId>  
-		        </exclusion>  
-		    </exclusions>  
-		</dependency>
-		<dependency>
-			<groupId>com.wondersgroup.commons</groupId>
-			<artifactId>commons-util</artifactId>
-			<version>1.0.17</version>
-		</dependency>
-		<dependency>
-			<groupId>com.wondersgroup.commons</groupId>
-			<artifactId>commons-core</artifactId>
-			<version>1.0.13</version>
-			<exclusions>
-				<exclusion>
-					<artifactId>geronimo-servlet_3.0_spec</artifactId>
-					<groupId>org.apache.geronimo.specs</groupId>
-				</exclusion>
-			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.htmlparser</groupId>
@@ -228,11 +193,10 @@
 			<artifactId>jackson-mapper-asl</artifactId>
 			<version>1.9.0</version>
 		</dependency>
-		
 		<dependency>
-		  <groupId>com.wondersgroup.platform</groupId>
-		  <artifactId>datamonitor-web</artifactId>
-		  <version>0.0.3</version>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.3.2</version>
 		</dependency>
 </dependencies>
 </project>

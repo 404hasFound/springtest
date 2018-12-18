@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.Map;
 
 import javax.annotation.Resource;
-import javax.annotation.security.RolesAllowed;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
@@ -66,7 +65,7 @@ public class UserService {
 	public String getUser(String user,MyUser us){
 		String a = null;
 		a.equals("");
-		return "哈哈哈";
+		return "鍝堝搱鍝�";
 	}
 	
 	@Cacheable(value="serviceca",condition="#cache")

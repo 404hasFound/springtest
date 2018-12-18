@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
-import javax.annotation.security.RolesAllowed;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -135,7 +134,6 @@ public class IndexController {
     @RequestMapping(value="/userpagemap", method = RequestMethod.GET) 
     @ResponseBody
     @Secured("ROLE_ADMIN")
-    @RolesAllowed("ROLE_ADMIN")
     public Page getUserPageMap (HttpServletRequest request, HttpServletResponse response) {  
 		return  userService.getPageMap();
     } 
